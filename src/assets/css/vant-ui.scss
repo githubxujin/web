@@ -1,0 +1,18 @@
+//重写vantUI样式
+.van-dialog__footer--buttons {
+    flex-direction: row-reverse;
+}
+
+[class*=van-hairline]::after {
+    border-right: 1px solid #ebedf0;
+}
+
+.van-nav-bar .van-icon.van-nav-bar__arrow {
+    font-size: 18px;
+    color: $backIconColor;
+}
+
+// 弹出层背景色
+.van-overlay {
+    background-color: rgba(0, 0, 0, .5);
+}
